@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Kodchasan', 'sans-serif';
+  display: flex;
+}
+
+.custom-background {
+  background-color: #242634;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.grid {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.sidebar {
+  width: 78px;
+  height: 100vh;
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logobox {
+  width: 47.849px;
+  height: 47px;
+  transform: rotate(-45deg);
+  border-radius: 10px;
+  border: 2px solid #86789f;
+  background: rgba(217, 217, 217, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+
+.logo {
+  transform: rotate(45deg);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 76px;
+  gap: 20px;
+}
+
+.navbarLogoBox {
+  background-color: #242634;
+  width: 47.849px;
+  height: 47px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui.small.image {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.navbarLogoBox:hover {
+  background: #77a78e;
+}
+
+.navbarLogoBox:hover .ui.small.image {
+  filter: brightness(1) invert(0);
+}
